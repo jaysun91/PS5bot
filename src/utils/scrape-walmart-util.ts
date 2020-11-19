@@ -36,8 +36,12 @@ export const scrapeWalmart = async (config: { [key: string]: string }) => {
     })
 
     await page.goto(
-      'https://www.walmart.com/ip/PlayStation-5-Console/363472942'
+      'https://www.walmart.com/ip/Sony-PlayStation-5-Digital-Edition/493824815'
     )
+//     await page.goto(
+//       'https://www.walmart.com/ip/PlayStation-5-Console/363472942'
+//     )
+    
     // await page.goto(
     //   'https://www.walmart.com/ip/Sony-PlayStation-5-DualSense-Wireless-Controller/615549727'
     // )
